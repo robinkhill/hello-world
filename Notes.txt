@@ -1,0 +1,135 @@
+NOTES for COSC 2030
+
+Github, Previous:
+UW-COSC-2030-SP-2018
+UW-COSC-2030 (2017)
+
+
+HANDOUTS
+
+Still need:
+  How to Write C++ Assignments
+  How to Write Python Assignments
+  How to Submit through Github
+
+
+TERMS
+
+Shallow copy
+Lossy, lossless
+Short circuit evaluation (of boolean)
+
+
+
+DATA STRUCTURE EXAMPLES
+
+RGB Pixel:
+  BMP format: https://en.wikipedia.org/wiki/BMP_file_format
+  PNG Spec:  https://www.w3.org/TR/PNG/
+  PNG Compressed file format
+
+With Python:  https://stackoverflow.com/questions/138250/how-to-read-the-rgb-value-of-a-given-pixel-in-python
+
+
+PROGRAMS
+
+Run-length Encoding
+  Array?  File structures?
+
+Project 1:  Steganography
+  Array?
+  Pass your encoded image to another student.
+
+Project 2:  Morse Code -- Binary Seach Tree (defined pg. 73)
+
+
+Projects will use the object-oriented paradigm.  Projects can be done in either C++ or Python.  
+
+
+READING
+
+FOR PYTHON
+
+Sections from The Python Tutorial
+  https://docs.python.org/3/tutorial/index.html
+  Ch. 8:  Errors and Exceptions
+
+ \url{https://medium.mybridge.co/19-free-ebooks-to-learn-programming-with-python-8f6f0ad4a7f8}
+
+FOR C++
+
+Microsoft VS C++ Tutorials
+
+Either do these Quickstarts:
+  Quickstart: First look at the Visual Studio IDE
+https://docs.microsoft.com/en-us/visualstudio/ide/quickstart-ide-orientation?view=vs-2017
+  Get started with C++ in Visual Studio
+  https://docs.microsoft.com/en-us/visualstudio/ide/getting-started-with-cpp-in-visual-studio?view=vs-2017
+
+Or do these two parts of the Visual C++ Tutorial:
+  Create a C++ console app project
+  https://docs.microsoft.com/en-us/cpp/build/vscpp-step-1-create?view=vs-2017
+  Build and run a C++ console app project
+  https://docs.microsoft.com/en-us/cpp/build/vscpp-step-2-build?view=vs-2017
+  
+For skill and efficiency, do the Visual Studio IDE (five parts) tutorial:
+Using the Visual Studio IDE for C++ Desktop Development:
+  https://docs.microsoft.com/en-us/cpp/ide/using-the-visual-studio-ide-for-cpp-desktop-development?view=vs-2017
+
+Tricky:
+  sizeof returns different values for arrays and pointers
+  Use of NULL leads to errors
+  "at" throws exception, but indexing doesn't
+
+Thread-safety matters.
+
+
+DIVISION OF TOPICS between 2030 and 3020
+
+2030:  Strings-- substrings, concatenation
+  But not Boyer-Moore Search.
+
+2030:  Lists, stacks, other linear structures, heaps, priority queues-- construction, indexing, traversal, push/pop
+  But no sophisticated applications.
+
+2030:  Binary and General Trees
+  But maybe AVL and balanced trees, exercises on paper. 
+
+2030:  Graphs-- Spanning trees, matrices
+  But 3020:  Kruskal's Algorithm
+
+
+
+
+HOW TO SET UP A LAB
+
+0.  Create the classroom and work through the first assignment to get students in the classroom site: Send an assignment to all students, such as a practice homework or intro lab. Once they accept the first assignment, they will be added to the organization as outside collaborators. 
+
+For each new Lab N:
+
+1.  Get the instructions from the previous courses.  If Word, save as "Web Page, filtered."
+
+2.  Get the code and test data.  Compile and run.  Verify.  Create a private repository in the GitHub organization COSC-2030-Sp-2019. Include code and data files to distribute.  
+
+3.  Create a new assignment for Lab N.  Search and choose the appropriate repository.  Get the link and share it with students.  Through it, they can go directly to the repository.
+
+4.  Students work on files, adding them this way:
+  https://help.github.com/articles/adding-a-file-to-a-repository/
+
+5.  Instructors log in to classroom COSC-2030-Sp-2019-Classroom and open individual student repos to grade assignments, recording comments in README.md, and push back changes and files to student repositories for that lab.
+
+
+STUDENT PROCESS
+
+C++ with Visual Studio
+
+Installing  your own-- Community Edition
+Must have authorization.  30 days.  Must choose C++.
+
+Can either 
+  1.  Create an empty project and add files or create files
+  2.  Create console app
+Turn off "create dir"
+Executable will be in Debug folder
+
+If building and running in VS, test data must be in folder with source (not in Debug with .exe).

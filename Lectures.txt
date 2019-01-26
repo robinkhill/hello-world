@@ -1,0 +1,36 @@
+
+
+LECTURE NOTES
+
+Week 1
+
+C++ Environment
+
+Read "Build and run a C++ console app project"
+
+
+Starting Visual Studio opens several windows of a Project where code is written, compiled, and built into an executable.  You can include source code files from elsewhere, too.  You can save the .exe file and running it at the command line.  String arguments such as file names are in quotes.
+
+Python Environment
+
+Note the documentation on IDLE at https://docs.python.org/3/library/idle.html?highlight=idle
+starting IDLE opens a shell window and communicates with the Python interpreter.  You can open a Python source code file with the File menu.
+
+C++ Language
+
+Read http://www.cplusplus.com/doc/tutorial/program_structure/
+
+Python Language
+
+Read https://docs.python.org/3/tutorial/index.html through Section 3.2.
+
+
+
+
+Week 2
+
+Read Cplusplus "Input/output with files"
+  http://www.cplusplus.com/doc/tutorial/files/
+
+Read Python Tutorial Section 7.2
+  https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
